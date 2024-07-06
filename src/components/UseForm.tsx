@@ -29,7 +29,7 @@ const UserForm: React.FC = () => {
       <TextField label="Name" fullWidth margin="normal" value={name} onChange={(e) => setName(e.target.value)} />
       <TextField label="Phone Number" fullWidth margin="normal" value={phone} onChange={(e) => setPhone(e.target.value)} />
       <TextField label="Email" fullWidth margin="normal" value={email} onChange={(e) => setEmail(e.target.value)} />
-      <Button variant="contained" color="primary" onClick={handleSubmit} sx={{ mt : 5 }}>Submit</Button>
+      <Button variant="contained" color="primary" onClick={handleSubmit} sx={{ mt : 4 }}>Submit</Button>
     </Container>
   );
 };
