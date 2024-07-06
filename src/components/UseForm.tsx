@@ -11,6 +11,7 @@ const UserForm: React.FC = () => {
   const handleSubmit = () => {
     if (name && phone && email) {
       localStorage.setItem('userDetails', JSON.stringify({ name, phone, email }));
+      console.log(localStorage)
       navigate('/second');
     } else {
       alert('Please fill in all fields.');
