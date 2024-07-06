@@ -19,7 +19,8 @@ const UserForm: React.FC = () => {
   };
 
   return (
-    <Container  
+    <Container   
+      sx={{ mt : 3}}
       maxWidth="sm" 
       >
       <Typography variant="h4" gutterBottom>Enter Your Details</Typography>

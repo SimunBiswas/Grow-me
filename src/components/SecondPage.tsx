@@ -92,7 +92,7 @@ const SecondPage: React.FC = () => {
         />
       </div>
       <List sx={{ 
-        mt : 3,
+        mt : 3
       }}>
         {departmentData.map((department) => (
           <div key={department.department} >
