@@ -20,7 +20,7 @@ const UserForm: React.FC = () => {
 
   return (
     <Container   
-      sx={{ mt : 3}}
+      sx={{ m : 3 }}
       maxWidth="sm" 
       >
       <Typography variant="h4" gutterBottom>Enter Your Details</Typography>
